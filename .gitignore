@@ -1,0 +1,45 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/lab-2-front/lab-2-front/dist
+/lab-2-front/tmp
+/lab-2-front/out-tsc
+# Only exists if Bazel was run
+/lab-2-front/bazel-out
+
+# dependencies
+/lab-2-front/node_modules
+
+# profiling files
+/lab-2-front/chrome-profiler-events*.json
+
+# IDEs and editors
+/lab-2-front/.idea
+/lab-2-front/.project
+/lab-2-front/.classpath
+/lab-2-front/.c9/
+/lab-2-front/*.launch
+/lab-2-front/.settings/
+/lab-2-front/*.sublime-workspace
+
+# IDE - VSCode
+/lab-2-front/.vscode/*
+/lab-2-front/!.vscode/settings.json
+/lab-2-front/!.vscode/tasks.json
+/lab-2-front/!.vscode/launch.json
+/lab-2-front/!.vscode/extensions.json
+/lab-2-front/.history/*
+
+# misc
+/lab-2-front/.sass-cache
+/lab-2-front/connect.lock
+/lab-2-front/coverage
+/lab-2-front/libpeerconnection.log
+/lab-2-front/npm-debug.log
+/lab-2-front/yarn-error.log
+/lab-2-front/testem.log
+/lab-2-front/typings
+
+# System Files
+/lab-2-front/.DS_Store
+/lab-2-front/Thumbs.db
